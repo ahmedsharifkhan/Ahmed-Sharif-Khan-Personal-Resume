@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/Dark-Mode-Switch.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
@@ -19,17 +20,16 @@
 </head>
 
 <body style="font-family: Roboto, sans-serif;">
-    <div style="background: #009688;width: 1193px;height: 78px;">
-        <nav class="navbar navbar-light navbar-expand-md">
-            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgb(239,235,235);"><strong>Web</strong> Resume</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item"><a class="nav-link active text-light" href="https://www.goooodmovies.cf/" target="_blank"><i class="fab fa-blogger-b" style="color: rgb(255,255,255);"></i>&nbsp;Good Movies</a></li>
-                        <li class="nav-item"><a class="nav-link active text-light" target="_blank" href="https://www.ahmedsharifkhannoor.me/"><i class="fab fa-blogger-b" style="color: rgb(255,255,255);"></i>&nbsp;Tech Tips</a></li>
-                    </ul>
-                </div>
+    <div style="background: #009688;width: 1163;height: 107px;">
+        <div class="row">
+            <div class="col-4 text-truncate text-break">
+                <h1 class="text-truncate text-break text-center" style="font-family: Roboto, sans-serif;color: rgb(239,235,235);"><span style="font-size: 25px;"><i class="fab fa-blogger-b"></i><a class="text-decoration-none" href="https://www.goooodmovies.cf/" style="font-size: 25px;color: rgb(243,249,255);" target="_blank">&nbsp;Good Movies</a></span></h1>
             </div>
-        </nav>
+            <div class="col-4 text-truncate text-break">
+                <h1 class="text-truncate text-break text-center" style="font-family: Roboto, sans-serif;color: rgb(239,235,235);"><span style="font-size: 25px;"><i class="fab fa-blogger-b"></i><a class="text-decoration-none" href="https://www.ahmedsharifkhannoor.me/" style="font-size: 25px;color: rgb(243,249,255);" target="_blank">&nbsp;Tech Tips</a></span></h1>
+            </div>
+            <div class="col text-truncate text-break text-center d-flex justify-content-xl-center"><i class="fas fa-sun d-xl-flex align-items-xl-center" style="font-size: 24px;margin-right: 8px;color: rgb(255,255,255);"></i><div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="darkSwitch" /><label class="custom-control-label" for="darkSwitch"></label></div><i class="fas fa-moon d-xl-flex align-items-xl-center" style="font-size: 24px;"></i></div>
+        </div>
     </div>
     <div class="container shadow mt-2" data-aos="fade-up" data-aos-delay="500" id="home">
         <div class="row" style="margin-top: 3px;">
@@ -47,7 +47,7 @@
                                 <li><i class="fa fa-home" style="color: rgb(0,150,136);"></i>&nbsp; &nbsp; Chapainawabganj, Bangladesh</li>
                                 <li class="text-truncate"><i class="fa fa-envelope" style="color: rgb(0,150,136);"></i>&nbsp; &nbsp;&nbsp;<a class="text-dark text-decoration-none" href="mailto:ahmedsharifkhannoor@gmail.com">ahmedsharifkhannoor@gmail.com</a></li>
                                 <li><i class="fa fa-phone" style="color: rgb(0,150,136);"></i>&nbsp; &nbsp;&nbsp;<a class="text-dark text-decoration-none" href="tel:01744750096">+8801744750096</a></li>
-                                <li><i class="fa fa-file-text" style="color: rgb(0,150,136);"></i>&nbsp; &nbsp;&nbsp;<a class="text-dark text-decoration-none" target="_blank" href="https://drive.google.com/file/d/18XRE2M7NldRcPMKAnW57NzryCDefbWmH/view?usp=sharing">Full Resume&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a><a class="btn btn-primary" role="button" style="background: rgb(0,150,136);width: 77px;font-size: 12px;height: 21px;line-height: 9px;" href="https://drive.google.com/file/d/1yODffQIhE5Oe7eypSonGn25qst8ivvn8/view?usp=sharing" target="_blank">Download</a></li>
+                                <li><i class="fa fa-file-text" style="color: rgb(0,150,136);"></i>&nbsp; &nbsp;&nbsp;<a class="text-dark text-decoration-none" target="_blank" href="https://drive.google.com/file/d/18XRE2M7NldRcPMKAnW57NzryCDefbWmH/view?usp=sharing">Full Resume&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a><a class="btn btn-primary" role="button" style="background: rgb(0,150,136);width: 77px;font-size: 12px;height: 21px;line-height: 9px;" href="https://drive.google.com/file/d/18XRE2M7NldRcPMKAnW57NzryCDefbWmH/view?usp=sharing" target="_blank">Download</a></li>
                                 <li class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-journal-bookmark-fill" style="color: rgb(0,150,136);">
                                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"></path>
                                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"></path>
@@ -242,6 +242,7 @@
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/Dark-Mode-Switch.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css"></script>
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
