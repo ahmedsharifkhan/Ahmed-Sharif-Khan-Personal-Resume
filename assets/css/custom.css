@@ -7,3 +7,8 @@ body {
   scroll-behavior: smooth;
 }
 
+.btn-group.btn-group-sm {
+  width: 1140px;
+  margin: auto;
+}
+
