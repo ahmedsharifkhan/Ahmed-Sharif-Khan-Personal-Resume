@@ -19,3 +19,7 @@ body {
   border-radius: 100px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
